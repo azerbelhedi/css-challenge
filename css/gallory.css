@@ -1,0 +1,72 @@
+.gallory-section{
+    padding-top : 40px ;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.item1{
+    height :230px;
+    background-image: url("https://images.axios.com/JOb-TETrqqBBnkG-HFEmcSOye0g=/1920x1080/smart/2017/12/15/1513304164023.jpg") ;
+    background-size: cover ;
+    background-position: center ;
+    filter: opacity(0.7)
+}
+
+.item2{
+    height : 230px ;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX7RoWUkCO73LgsTDhb8kqLvSwl0D3DCKHkhsJgd7lV3kZP8eqzA") ;
+    background-size: cover ;
+    background-position: center ;
+    filter: opacity(0.7)
+}
+
+.item2{
+    background-image: url("https://urlzs.com/ASQxh") ;
+    background-size: cover ;
+    background-position: center ;
+    filter: opacity(0.7)
+}
+
+.item3{
+    background-image: url("https://pcsdotcomstatic.s3.amazonaws.com/img/javaclass1920x1030.jpg") ;
+    background-size: cover ;
+    background-position: center ;
+    filter: opacity(0.7)
+}
+
+
+.item4{
+    background-image: url("https://loudounnow.com/wp-content/uploads/2017/06/coding1_william-mccann-800x445.jpg") ;
+    background-size: cover ;
+    background-position: center ;
+    filter: opacity(0.7)
+}
+
+.item5{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHpL8uLqfMACkEr1asXWfW8GCJrT2-K3XLdrrxsfE8xr3N5vKdIQ") ;
+    background-size: cover ;
+    background-position: center ;
+    filter: opacity(0.7)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+
